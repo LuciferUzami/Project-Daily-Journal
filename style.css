@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    text-decoration: none;
+    font: bold;
+}
+
+.topbox{
+    background-color: ghostwhite;
+    color: gray;
+    width: 100%;
+    height: 80px;
+}
+
+.navheading{
+    padding-left: 15%;
+    line-height: 80px;
+}
+
+#journal{
+    padding-left: 10px;
+}
+
+.controls{
+    list-style-type: none; /* Remove a dots  */
+    float: right;
+    display: inline-flex;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+.home{
+    margin: auto 200px;
+}
+
+.controls li a{
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+p{
+    font-size: 20px;
+}
