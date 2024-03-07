@@ -3,8 +3,14 @@ const body_parser = require("body-parser")
 
 const app = express()
 
+// Connect css
+app.use(express.static("public"))
+
+// ejs system
+app.set("view engine", "ejs")
+
 app.get("/", function(req, res){
-    res.send("Connected")
+    res.render("home")
 })
 
 
